@@ -20,9 +20,7 @@ export function Header() {
 				onClick={() => setOpen(!open)}
 				className="md:hidden flex flex-col gap-1"
 			>
-				<span className="w-6 h-0.5 bg-black"></span>
-				<span className="w-6 h-0.5 bg-black"></span>
-				<span className="w-6 h-0.5 bg-black"></span>
+				<img src="../../assets/svgs/menu-svgrepo-com.svg" alt="" />
 			</button>
 			<div
 				className={`
