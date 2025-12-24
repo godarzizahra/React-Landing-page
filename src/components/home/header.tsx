@@ -4,7 +4,7 @@ export function Header() {
 	const [open, setOpen] = useState(false);
 
 	return (
-		<header className="w-full flex items-center justify-between px-4 py-3 relative">
+		<header className="w-full flex items-center justify-between px-20 py-3 relative">
 			<div className="flex items-baseline-last gap-1">
 				<span className="text-[26.4px] font-bold">Fashion Haus</span>
 				<span className="bg-[#2945FF] w-4 h-1"></span>
