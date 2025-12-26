@@ -16,11 +16,11 @@ export function HeroSection() {
       "
 		>
 			<div className="flex flex-col gap-20 text-center lg:text-left">
-				<h1 className="text-3xl sm:text-4xl lg:text-6xl max-w-xl">
+				<h1 className="text-3xl sm:text-6xl lg:text-8xl max-w-xl text-[#000545] font-bold">
 					Fashion fits from the big brands.
 				</h1>
 
-				<p className="text-sm sm:text-base max-w-lg">
+				<p className="text-sm sm:text-xl max-w-lg text-[#393F4D]">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis
 					tellus, malesuada vel cursus et, sodales sit amet eros. Integer sed
 					justo ac dolor molestie.
