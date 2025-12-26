@@ -2,6 +2,7 @@ import { Header } from "./header";
 import { HeroSection } from "./heroSection";
 import { OutdoorPicsSection } from "./OutdoorPicsSection";
 import { SkirtsSection } from "./SkirtsSection";
+import { SocialProofSection } from "./SocialProofSection";
 
 export function Home() {
 	return (
@@ -10,6 +11,7 @@ export function Home() {
 			<HeroSection />
 			<SkirtsSection />
 			<OutdoorPicsSection />
+			<SocialProofSection />
 		</div>
 	);
 }
