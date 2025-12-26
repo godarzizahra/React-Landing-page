@@ -24,7 +24,7 @@ export function Header() {
 			</button>
 			<div
 				className={`
-					absolute top-full left-0 w-full bg-white shadow-md
+					absolute top-full left-0 w-full bg-white shadow-md z-50
 					flex flex-col items-center gap-4 py-4
 					transform transition-all duration-300 ease-in-out
 					md:hidden
