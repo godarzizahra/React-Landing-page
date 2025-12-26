@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Button } from "./shared/shared";
 
 export function Header() {
 	const [open, setOpen] = useState(false);
@@ -15,6 +16,7 @@ export function Header() {
 				<span>Blog</span>
 				<span>Community</span>
 				<span>Reviews</span>
+				<Button text="Members" />
 			</div>
 			<button
 				onClick={() => setOpen(!open)}
