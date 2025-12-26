@@ -1,3 +1,5 @@
+import { Button } from "./shared/shared";
+
 export function Herosection() {
 	return (
 		<div
@@ -9,7 +11,7 @@ export function Herosection() {
         py-10
       "
 		>
-			<div className="flex flex-col gap-5 text-center lg:text-left">
+			<div className="flex flex-col gap-20 text-center lg:text-left">
 				<h1 className="text-3xl sm:text-4xl lg:text-6xl max-w-xl">
 					Fashion fits from the big brands.
 				</h1>
@@ -19,6 +21,9 @@ export function Herosection() {
 					tellus, malesuada vel cursus et, sodales sit amet eros. Integer sed
 					justo ac dolor molestie.
 				</p>
+				<div>
+					<Button text="Learn more" />
+				</div>
 			</div>
 
 			<div className="w-full lg:w-1/2 relative py-7 flex justify-center items-center">
