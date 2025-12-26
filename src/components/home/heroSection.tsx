@@ -1,6 +1,10 @@
+import { useState } from "react";
+import LoginModal from "../LoginModal";
 import { Button } from "./shared/shared";
 
-export function Herosection() {
+export function HeroSection() {
+	const [isModalOpen, setIsModalOpen] = useState(false);
+
 	return (
 		<div
 			className="
@@ -22,7 +26,7 @@ export function Herosection() {
 					justo ac dolor molestie.
 				</p>
 				<div>
-					<Button text="Learn more" />
+					<Button text="Learn more" onClick={() => setIsModalOpen(true)} />
 				</div>
 			</div>
 
@@ -45,6 +49,7 @@ export function Herosection() {
 					className="hidden lg:block absolute -bottom-2 -right-2 lg:-right-6 w-16 lg:w-24"
 				/>
 			</div>
+			{isModalOpen && <LoginModal onClose={() => setIsModalOpen(false)} />}
 		</div>
 	);
 }
